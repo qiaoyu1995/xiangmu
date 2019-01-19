@@ -1,0 +1,181 @@
+#dynamic1{
+    background-color: white;
+    flex: 1;
+    overflow: scroll;
+}
+#list1{
+    height: 100px;
+
+
+}
+#list1_1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.list1_2{
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#list2{
+    height: 80px;
+    display: flex;
+    flex-flow: column;
+
+}
+#list3{
+    height: 80px;
+
+}
+#list4{
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+
+}
+.cen1{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+.cen1_2{
+    height: 20px;
+    width: 100%;
+}
+.cen1_3{
+    height: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+
+}
+.cen2{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+.cen2_1{
+    height: 30px;
+    width: 20%;
+}
+.cen3{
+    height: 20px;
+    width: 100%;
+}
+.cen1_1{
+    height: 50px;
+    width: 20%;
+
+}
+
+
+
+#list5{
+    height: 30px;
+    display:flex ;
+    flex-flow: row;
+
+}
+.list5_1{
+    height:30px ;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+
+}
+#list6{
+    height: 120px;
+    display: flex;
+    flex-flow: row;
+
+}
+#list7{
+    height: 120px;
+    display: flex;
+    flex-flow: row;
+
+}
+.list6_1{
+    height:120px ;
+    width: 25%;
+}
+.list6_2{
+    height: 120px;
+    width: 100%;
+}
+.list6_3{
+    height: 120px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.list2_shang{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+.list2_xia{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+
+}
+.list2_xia1{
+    height: 30px;
+    width: 33.3%;
+
+
+}
+.list2_left{
+    height: 50px;
+    width: 33.3%;
+}
+
+.list2_left1{
+    height: 50px;
+    width: 100%;
+}
+.list2_left2{
+    height: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+
+}
+.ziti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.ziti1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: grey;
+}
+.ziti2{
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    color: grey;
+    align-items:center ;
+}

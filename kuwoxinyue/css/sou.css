@@ -1,0 +1,24 @@
+#sou{
+    height: 40px;
+    background-color:#2962FF;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+
+}
+#kong{
+    height: 25px;
+    width: 90%;
+    border-radius: 8px;
+    background-color: #039BE5;
+
+}
+#fang{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}

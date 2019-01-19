@@ -1,0 +1,98 @@
+#bo{
+    height: 60px;
+    background-color:white;
+    display: flex;
+    flex-flow: row;
+}
+
+.bo_left{
+    height: 60px;
+    width: 10%;
+
+}
+.bo_right{
+    height: 60px;
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+
+}
+.gun{
+    height: 60px;
+    width: 100%;
+    display: flex;
+
+}
+.gun1{
+    height: 60px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 60%;
+}
+.bo_top{
+    height: 20px;
+    width: 100%;
+    display: flex;
+}
+.bo_di{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+.jin{
+    height: 20px;
+    width: 100%;
+
+}
+.jin_1{
+    height: 20px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 40%;
+}
+
+.bo_di1{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+
+}
+.bo_di2{
+    height: 35px;
+    width: 10%;
+
+}
+.bo_di3{
+    height: 35px;
+    width: 10%;
+}
+.bo_di4{
+    height: 35px;
+    width: 10%;
+}
+.bo_di1_1{
+    height: 17px;
+    width: 100%;
+    font-size: 14px;
+}
+.bo_di1_2{
+    height: 17px;
+    width: 100%;
+    font-size: 5px;
+    color: grey;
+}
+.bo_di2_1{
+    height:35px ;
+    width: 100%;
+}
+.bo_di2_2{
+    height: 35px ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 40%;
+}

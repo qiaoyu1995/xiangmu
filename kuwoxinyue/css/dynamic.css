@@ -1,0 +1,107 @@
+#dynamic{
+    background-color: white;
+     flex: 1;
+    overflow: scroll;
+}
+#list1{
+    height: 60px;
+
+
+}
+#list2{
+    height: 90px;
+
+}
+#list3{
+    height: 40px;
+
+}
+#list4{
+    height: 40px;
+    display: flex;
+
+}
+
+
+#list5{
+    height: 40px;
+
+}
+#list6{
+    height: 40px;
+
+}
+#list7{
+    height: 80px;
+    display: flex;
+    flex-flow: column;
+
+}
+#list8{
+    height: 70px;
+
+}
+#list9{
+    height: 40px;
+}
+
+#list10{
+    height: 40px;
+}
+#list11{
+    height: 40px;
+}
+
+#tou{
+    height: 60px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+ }
+ #name{
+     width: 80%;
+     height: 60px;
+
+
+
+ }
+ #you{
+     flex: 1;
+     height: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+ }
+ #tou1{
+     height: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ #name1{
+    height: 30px;
+
+
+
+ }
+ #name2{
+  height: 35px;
+ }
+ #you1{
+     height: 50px;
+     width: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+.heng{
+    display: flex;
+    flex-flow: row;
+}
+
+

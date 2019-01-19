@@ -1,0 +1,148 @@
+#signal{
+    height: 50px;
+    background-color:#2962FF;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
+
+
+}
+#signal_left{
+   flex: 1;
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+#signal_center{
+    height: 50px;
+    width: 50%;
+}
+
+#signal_right {
+    flex: 1;
+    height: 50px;
+    display: flex;
+}
+
+#signal_area{
+    width: 40px;
+    height: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+#signal_area div{
+    width: 3px;
+    background-color: white;
+    margin :2px;
+    border-radius: 1px;
+
+}
+#signal_area div:nth-child(1){
+    height: 6px;
+}
+#signal_area div:nth-child(2){
+    height: 9px;
+}
+#signal_area div:nth-child(3){
+    height: 12px;
+}
+#signal_area div:nth-child(4){
+    height: 15px;
+}
+#yi{
+    margin: 10px;
+}
+#lan{
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    flex: 1;
+    width: 25%;
+    background-image: url(../img/auto/lan.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:60%;
+}
+#dian{
+    height: 50px;
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#mo {
+    height: 50px;
+    width: 25%;
+    display: flex;
+    background-image: url(../img/auto/z.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:60%;
+
+
+
+}
+#xin{
+    height: 50px;
+    flex: 1;
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+#battery_body {
+    height: 15px;
+    width: 30px;
+    border: white 1px solid;
+    border-radius: 1px;
+}
+
+#battery_header {
+    height: 7px;
+    width: 3px;
+    background-color: white;
+
+    border-radius: 0 1px 1px 0;
+}
+
+#battery_core {
+    height: 13px;
+    width: 12px;
+    background-color: red;
+    margin: 1px;
+
+    animation: charge 5s linear infinite;
+}
+
+
+@keyframes charge {
+    0% {
+        background-color: red;
+        width: 1px;
+    }
+
+    20% {
+        background-color: yellow;
+        width: 7px;
+    }
+
+    80% {
+        background-color: green;
+        width : 17px;
+    }
+    100% {
+        background-color: green;
+        width : 20px;
+    }
+}
+
+
+

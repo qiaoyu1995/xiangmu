@@ -1,0 +1,78 @@
+#tittle{
+    background-color:#2962FF;
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
+
+}
+#rank1{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+#wo{
+    height: 50px;
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+#ting{
+    height: 50px;
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+#kan{
+    height: 50px;
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+#chang{
+    height: 50px;
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+#rank6{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*抽屉*/
+#main-left {
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 60%;
+    transition: all .5s;
+    flex-flow: column;
+}
+
+.main-left-start {
+    right: 100%;
+}
+.main-left-end {
+    right : 40%;
+}
+
+

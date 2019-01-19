@@ -1,0 +1,22 @@
+#container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.container-start {
+    left : 0%;
+}
+.container-end {
+    left: 60%;
+}
+
+
+
