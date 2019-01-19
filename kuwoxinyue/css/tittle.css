@@ -63,7 +63,7 @@
     position: fixed;
     display: flex;
     height: 100%;
-    width: 60%;
+    width: 80%;
     transition: all .5s;
     flex-flow: column;
 }
@@ -72,7 +72,7 @@
     right: 100%;
 }
 .main-left-end {
-    right : 40%;
+    right : 20%;
 }
 
 
